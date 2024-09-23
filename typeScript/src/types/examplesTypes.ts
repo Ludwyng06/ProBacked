@@ -1,34 +1,36 @@
 //tipos basicos
-const username: string = "Isabel";
-const age: number = 28;
-console.log(username, "nombre de usuario");
-console.log("La edad de", username, "es", age)
+const username: string ="JenserGarcia";
+const age : number = 19;
+console.log(username,"username");
+console.log("la edad de :",username,"es",age);
+
 //2 ejemplo de string
-let cat: string = "";
-cat = "Milo";
-console.log(cat, "nombre del gato");
-console.log("El gato", cat, "es de", username);
+let dog: string = "" ;
+dog = "Kaiser"; 
+console.log(dog,"dog 1");
+console.log("el perro",dog,"pertenece a",username);
 
 //ejemplo de number 
-let contNumber: number = 0;
-contNumber = 100;
-console.log("El número final es:", contNumber);
+let contNumber: number=0;
+contNumber =16;
+console.log("el ultimo numero de todos es:",contNumber);
 
 //Boolean
 //Ejemplo de boolean 
 const isActive: boolean = true;
-console.log("Esta haciendo calor?", isActive);
+console.log("El computador esta encendido?",isActive);
 
 //Ejemplo de boolean 2
-const actions: boolean =false;
-console.log("¿La clase es entretenida?", actions);
+const actions: boolean = false;
+console.log("El juego es divertido?:",actions);
 
 //Any
 //Ejemplo
-const data: string = "miauu";
-const time: number =2;
-console.log("El gato", cat, "dice", data, "a las ",time);
+const data: string = "jejeje";
+const Dog: string = "perro";
+console.log("El super", Dog, "se ríe", data);
+
 
 //Ejemplo de any 2
-const example: number = 10;
-console.log("Vamos a ir al rio con", example, "amigos y tambien va", username);
+const example: number = 6;
+console.log("Para jugar voleibol necesitamos",example,"personas y uno de ellos es ",username);
