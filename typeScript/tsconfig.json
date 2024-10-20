@@ -4,18 +4,19 @@
     "removeComments": true, //remueve comentarios a la hora de compilar
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true, //para importar modulos 
-    "noUnusedLocals": true,
     "noUnusedParameters": true,
     "sourceMap": true, //crea maoas
-    "target": "es6",
+    "target": "ES2016",
     "outDir": "./build",// copia de 'src' pero en JS
     "baseUrl": "./",
     "resolveJsonModule": true,
+    "noUnusedLocals": false,
     "paths": {
       "Modules/*": ["src/modules/*"]
     }
+    
   },
-  "lib": ["es2015"], //usa la version 2015
+  "lib": ["es2016","dom"], //usa la version 2015
   "include": ["src/**/*.ts"], //toma todos los archivos de la carpeta src y los compila 
   "exclude": [
     "node_modules/**/*", //excluye todos los archivos de la carpeta module-node
